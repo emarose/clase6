@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,400&display=swap');
+
+*{
+  color:#fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.color-bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,100,0.6);
+}
+.container{
+  position: relative;
+  background-image: url("https://picsum.photos/2880/1920?image=737");
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: rgba(1, 114, 255, 0.5);
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255,255,255,.4);
+  
+  width: 380px;
+  height: 400px;
+}
+
+h2{
+z-index: 1;
+margin-bottom: 10px;
+font-size: 23px;
+}
+form{
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  height: 100%;
+  background-color: rgba(255,255,255,.1);
+  padding: 10px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+}
+
+input::placeholder{
+  color:#fff;
+  font-size: 12px;
+
+}
+
+form button{
+  font-weight: bolder;
+  background-color: #0172ff;
+  width: 33ch;
+  padding: 10px 0;
+  margin: 8px 0;
+  border:none;
+  border-radius: 25px;
+}
+
+a{
+  z-index: 1;
+  margin-top: 7px;
+  font-size: 17px;
+  text-decoration: none;
+}
